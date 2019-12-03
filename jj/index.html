@@ -1,0 +1,27 @@
+<html>
+    <head><style>
+        .sq{
+            background-color: aqua;
+            height: 100px;
+            width: 100px;
+            animation-name: sqq;
+            animation-duration: 4s;
+            animation-iteration-count: infinite;
+        }
+        @keyframes sqq{
+            0%{
+                transform: translateX(0);
+            }
+            50%{
+                transform: translateX(200px);
+                border-radius: 100px;
+            }
+            100%{
+                transform: translateX(0);
+            }
+        }
+    </style></head>
+<body>
+    <div class="sq"></div>
+</body>
+</html>
